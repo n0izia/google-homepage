@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+        rel="stylesheet">
+  
+        <style>
+body {
+    background-color: #ffffff;
+    margin: auto;
+    font-size: 14px;
+    font-family: Arial;
+    color: black;
+    justify-content: center;
+}
+
+
+#googleimg {
+    display: block;
+    margin: auto;
+    height: 100px;
+    margin-top: 210px;
+    text-align: center;
+}
+.container {
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#nuserimg {
+    border-radius: 50%;
+}
+/* Top Nav Bar */
+.topnav {
+    background-color: #ffffff;
+    padding: 12px;
+}
+.topnav a {
+    padding: 8px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: black;
+}
+
+.topnav a:hover {
+    color: black;
+    text-decoration: underline;
+}
+.topnav-right {
+    float:right;
+}
+
+/* Footer Nav Bar */
+.navbar {
+    background-color: rgb(228, 228, 228);
+    padding: 14px;
+    position: fixed;
+bottom: 0;
+width: 100%;
+}
+.navbar a {
+    padding: 14px;
+    text-decoration: none;
+    color: rgb(92, 90, 90);
+}
+.navbar a:hover {
+    color: rgb(92, 90, 90);
+    text-decoration: underline;
+}
+.navbar-right {
+    float:right;
+}
+
+/* Search Form */
+#searchform .search {
+    width: 582px;
+    display: flex;
+    justify-content: center;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-family: Arial;
+    color: black;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    height: 44px;
+    z-index: 3;
+  margin: 0 auto;
+    width: 582px;
+}
+
+.searchBox {
+    background-color: #ffffff;
+    display: flex;
+    font-size: 14px;
+    font-family: Arial;
+    color: black;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    box-shadow: none;
+    border-radius: 24px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    height: 44px;
+    z-index: 3;
+  margin: 0 auto;
+    width: 582px;
+}
+.submitbtn {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: auto;
+    padding: 0 16px;
+    padding-top: 0px;
+    padding-right: 16px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+}
+
+#searchIcon {
+    padding: 0.6rem;
+    opacity: 0.5;
+}
+
+        </style>
+
+        <title>n0izia's Google Homepage Project</title>
+    </head>
+<body>
+
+    <header>
+<div class="topnav">
+    <a href="#">About</a>
+    <a href="#">Store</a>
+    <div class="topnav-right">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <div id="searchIcon" class="material-icons-outlined">
+            apps
+        </div>
+        <a href="https://github.com/n0izia"><img src="/google-homepage/images/nuserimg.png" id="nuserimg"></a>
+    </div>
+</div>
+</header>
+
+<footer>
+<div class="navbar">
+    <a href="#">Advertising</a>
+    <a href="#">Business</a>
+    <a href="#">How Search Works</a>
+<div class="navbar-right">
+    <a href="#">Privacy</a>
+    <a href="#">Terms</a>
+    <a href="#">Settings</a>
+</div>
+</div>
+</footer>
+<main>
+<img src="/google-homepage/images/googlelogo.png" alt="Google Homepage Logo" id="googleimg"><br>
+</div><div class="container">
+<form action="/form/submit" method="GET">
+<div class="search" id="searchform">
+    <div id="searchIcon" class="material-icons-outlined">search</div>
+    <input class="searchBox" type="search" name="search" placeholder="Cats for adoption near me"></div>
+    <br>
+    <input type="submit" name="submit" class="submitbtn" value="Google Search">
+<input type="submit" name="submit" class="submitbtn" value="I'm Feeling Lucky">
+</div>
+</form>
+
+</main>
+</body>
+
+</html>
